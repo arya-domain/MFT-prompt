@@ -313,14 +313,14 @@ class MFT(nn.Module):
         out3 = self.out3(x)
         return out3
 
-patchsize = 11
-batchsize = 64
-testSizeNumber = 500
-EPOCH = 20
-BandSize = 1
-LR = 5e-4
-FM = 16
-loops = 1
+# patchsize = 11
+# batchsize = 64
+# testSizeNumber = 500
+# EPOCH = 20
+# BandSize = 1
+# LR = 5e-4
+# FM = 16
+# loops = 1
 
-model = MFT(16, 144, 1, 15, False).to("cuda")
-summary(model, [(144,121),(1,121),(1,32)], device = 'cuda')
+# model = MFT(16, 144, 1, 15, False).to("cuda")
+# summary(model, [(144,121),(1,121),(1,32)], device = 'cuda')
